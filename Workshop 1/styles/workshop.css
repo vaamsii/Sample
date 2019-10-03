@@ -1,0 +1,56 @@
+/* Progress Bar Color */
+.progress-container.progress-primary .progress {
+    background: rgb(128,128,128);
+  }
+  /* Progress Bar Color Main */
+  .progress-container.progress-primary .progress-bar {
+    background: rgb(24, 168, 48);
+  }
+
+/*page header tint/color this can set to green or such 
+.page-header {
+  
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(44, 44, 44, 0.2)), to(rgba(55, 140, 63, 0.6)));
+  background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(55, 140, 63, 0.6));
+  
+}
+*/
+
+/*This is the main color for the buttons*/
+.btn-primary {
+    background-color: #378C3F;
+    color: #FFFFFF;
+  }
+
+
+  /*This is the class for hover of buttons, this can be used to change the colors of the hover over buttons */
+.btn-primary:hover {
+  background-color: #40a249;
+  color: #FFFFFF;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+/*This is to make the header background little bluered or to change other attributes */
+.page-header-image{
+    filter: blur(4.5px);
+    -webkit-filter: blur(4.5px)
+  
+  }
+
+
+ .cc-profile-image a:before {
+    content: "";
+    border: 15px solid rgb(189, 182, 182);
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+    position: absolute;
+    left: 0;
+    -webkit-animation: pulsate 1.6s ease-out;
+            animation: pulsate 1.6s ease-out;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    opacity: 0.0;
+    z-index: 99;
+  }
